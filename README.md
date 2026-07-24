@@ -1,13 +1,13 @@
 # book-ocr-conversion
 
-Shared Mac/Legion project for book OCR, PDF-to-Markdown extraction, standalone HTML/EPUB deliverables, Zotero Markdown child attachments, PDF filename normalization, and conservative cleanup reports.
+Cross-platform macOS/Windows project for book OCR, PDF-to-Markdown extraction, standalone HTML/EPUB deliverables, Zotero Markdown child attachments, PDF filename normalization, and conservative cleanup reports.
 
-Agents should start with [SKILL.md](SKILL.md), [AGENTS.md](AGENTS.md), and [CONTEXT.md](CONTEXT.md). On Legion/Windows, also read [docs/windows.md](docs/windows.md). This repository is intentionally folder-scoped and intentionally excludes the previous full-book translation workflow.
+Agents should start with [SKILL.md](SKILL.md), [AGENTS.md](AGENTS.md), and [CONTEXT.md](CONTEXT.md). On Windows, also read [docs/windows.md](docs/windows.md). This repository is intentionally folder-scoped and intentionally excludes the previous full-book translation workflow.
 
 Known local roots:
 
 - macOS: `$HOME/Projects/book-ocr-conversion`
-- Legion: `D:\Projects\book-ocr-conversion`
+- Windows: clone into a directory of your choice.
 
 ## Routing
 
@@ -29,7 +29,7 @@ Known local roots:
 - `SKILL.md`: folder-scoped agent skill for this repository.
 - `AGENTS.md`: short entrypoint telling agents to load `SKILL.md`.
 - `CONTEXT.md`: project vocabulary for Zotero/OCR concepts.
-- `docs/windows.md`: Legion/Windows runner, MinerU, and PaddleOCR notes.
+- `docs/windows.md`: Windows runner, MinerU, and PaddleOCR notes.
 - `paddle.py`: single-file Baidu AI Studio `PaddleOCR-VL-1.6` client.
 - `mineru.py`: single-file MinerU Precision Extract API client.
 - `requirements-win.txt`: Windows runner dependency set.
@@ -56,10 +56,10 @@ cp .env.example .env
 chmod 600 .env
 ```
 
-Windows/Legion:
+Windows:
 
 ```powershell
-cd D:\Projects\book-ocr-conversion
+cd $HOME\Projects\book-ocr-conversion
 .\scripts\run_windows.ps1 -Install worker --dry-run --limit 5
 ```
 
