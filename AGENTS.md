@@ -1,13 +1,6 @@
 # Book OCR Conversion Agent Instructions
 
-This folder is a book OCR and document-conversion pipeline. Load and follow `SKILL.md` before changing code, running OCR, uploading Markdown, generating HTML/EPUB deliverables, renaming Zotero attachments, or cleaning PDF queues.
-
-Start by reading:
-
-1. `SKILL.md`
-2. `README.md`
-3. `CONTEXT.md`
-4. `docs/windows.md` when working on Windows
+This folder is a book OCR and document-conversion pipeline. Use `SKILL.md` for OCR, Markdown upload, HTML/EPUB delivery, Zotero attachment changes, and PDF-queue cleanup. Use `README.md` for setup and commands, `CONTEXT.md` for pipeline behavior or architecture changes, and `docs/windows.md` for Windows operations. Read only the material relevant to the requested work.
 
 Key constraints:
 
