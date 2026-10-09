@@ -4,10 +4,9 @@ Cross-platform macOS/Windows project for book OCR, PDF-to-Markdown extraction, s
 
 Agents should start with [SKILL.md](SKILL.md), [AGENTS.md](AGENTS.md), and [CONTEXT.md](CONTEXT.md). On Windows, also read [docs/windows.md](docs/windows.md). This repository is intentionally folder-scoped and intentionally excludes the previous full-book translation workflow.
 
-Known local roots:
+Checkout location:
 
-- macOS: `$HOME/Projects/book-ocr-conversion`
-- Windows: clone into a directory of your choice.
+Clone into a directory of your choice. Run the setup and manual checks from the actual checkout root; the repository name does not prescribe a local installation path. Machine roles and deployment choices belong to the owning host, not these cross-platform examples.
 
 ## Routing
 
@@ -51,7 +50,7 @@ Known local roots:
 macOS:
 
 ```bash
-cd $HOME/Projects/book-ocr-conversion
+cd /path/to/your/checkout
 cp .env.example .env
 chmod 600 .env
 ```
