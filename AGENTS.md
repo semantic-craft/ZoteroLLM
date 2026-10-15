@@ -14,3 +14,7 @@ Key constraints:
 - Runtime state lives under `$HOME/Zotero/OCR_OUTPUT/.state/`; generated files there are not source files.
 - User-facing deliverables such as EPUB, standalone HTML, export indexes, and cleaned Markdown should be written under this repository's `output/` directory.
 - This project intentionally excludes the previous full-book translation workflow.
+
+## Lessons
+
+Read relevant [lessons](lessons.md) before implementation, review, or acceptance; update the matching entry after an observed correction or missed case.
